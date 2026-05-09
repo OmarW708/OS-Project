@@ -1,0 +1,175 @@
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #6366f1;
+    color: white;
+}
+
+.run {
+    background: #22c55e;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #334155;
+    padding: 6px;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+}
+
+.gantt {
+    display: flex;
+    margin-top: 10px;
+}
+
+.block {
+    padding: 10px;
+    margin: 2px;
+    background: #6366f1;
+    border-radius: 6px;
+}
+
+.gantt-wrapper {
+    margin-top: 20px;
+}
+
+.gantt-grid {
+    position: relative;
+    border: 1px solid #ccc;
+    background: #f8fafc;
+    padding-top: 30px;
+}
+
+.gantt-row {
+    position: relative;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.gantt-label {
+    position: absolute;
+    left: -60px;
+    top: 10px;
+    font-size: 14px;
+}
+
+.gantt-bar {
+    position: absolute;
+    height: 20px;
+    border-radius: 10px;
+    top: 15px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.timeline {
+    display: flex;
+    margin-left: 60px;
+    font-size: 12px;
+}
+
+.timeline div {
+    width: 40px;
+    text-align: center;
+}
+
+.scenario-buttons{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:15px;
+}
+
+.scenario-buttons button{
+    padding:10px 16px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+
+
+/* Comparison Table */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #111827;
+    color: #f3f4f6;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.comparison-table th,
+.comparison-table td {
+    border: 1px solid #374151;
+    padding: 14px;
+    text-align: center;
+}
+
+.comparison-table th {
+    background: #1f2937;
+    color: #60a5fa;
+    font-size: 16px;
+}
+
+.comparison-table tr:nth-child(even) {
+    background: #1a2233;
+}
+
+.comparison-table tr:hover {
+    background: #253047;
+    transition: 0.3s;
+}
+
+.comparison-table td:last-child {
+    color: #34d399;
+    font-weight: bold;
+}
